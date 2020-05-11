@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    background-color:white;
+    color:#fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height:1.2;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+    margin:0;padding:0;
+    scroll-behavior: smooth;
+}
+html {
+    overflow-y:scroll;
+    scroll-behavior:smooth;
+}
+@font-face {
+    font-family: "Scribble";
+    src: url([object Module]);
+}
+#root{
+    background-color: #e9e7e2;
+}
+
+section.AboutMe{display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:Scribble, Arial, serif;margin-bottom:3%}section.AboutMe div.head{display:flex;flex-direction:row;align-items:center;justify-content:space-between;width:100%}section.AboutMe div.head div.about{height:200px;width:50%}@media (max-width: 700px){section.AboutMe div.head div.about{text-align:center;max-height:100px;padding-left:5%}}section.AboutMe div.head div.about img{height:100%}@media (max-width: 700px){section.AboutMe div.head div.about img{width:280px;max-height:100px;transform:rotate(15deg)}}section.AboutMe div.head div.star2{height:200px;width:50%}@media (max-width: 700px){section.AboutMe div.head div.star2{display:none}}section.AboutMe div.head div.star2 img{height:100%;float:right}section.AboutMe div.text{display:flex;flex-direction:column;justify-content:space-evenly;align-items:flex-start;color:black}section.AboutMe div.text h1{font-size:50px}@media (max-width: 700px){section.AboutMe div.text h1{font-size:30px;text-align:center}}section.AboutMe div.text div.h1{width:100%;font-size:50px}@media (max-width: 700px){section.AboutMe div.text div.h1{font-size:30px;text-align:center}}section.AboutMe div.text h3{padding-left:5%;font-size:20px}@media (max-width: 700px){section.AboutMe div.text h3{font-size:14px;padding-right:5%}}section.AboutMe div.stack{display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;width:100%}section.AboutMe div.stack h1{color:black;margin:2% auto}section.AboutMe div.stack div.front{display:grid;width:95%;grid-template-columns:repeat(auto-fill, minmax(100px, 20%))}@media (max-width: 700px){section.AboutMe div.stack div.front{grid-template-columns:repeat(3, 1fr)}}section.AboutMe div.stack div.front div.img{max-height:120px;text-align:center}section.AboutMe div.stack div.front div.img a img{max-height:50px}section.AboutMe div.stack div.front div.img a h5{font-family:Arial, "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Sans Serif", sans-serif;height:20px}section.AboutMe div.stack div.back{display:grid;width:95%;grid-template-columns:repeat(auto-fill, minmax(100px, 20%));text-align:center}@media (max-width: 700px){section.AboutMe div.stack div.back{grid-template-columns:repeat(2, 1fr)}}section.AboutMe div.stack div.back div.img{max-height:120px}section.AboutMe div.stack div.back div.img a img{height:50px}section.AboutMe div.stack div.back div.img a h5{font-family:Arial, "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Sans Serif", sans-serif;height:20px}
+
+section.Contacts{width:100%;background-color:#231d1c;display:flex;align-items:center;font-family:Scribble, "Segoe UI", serif;padding-top:3%;height:210px}@media (max-width: 700px){section.Contacts{flex-direction:column;height:auto}}section.Contacts div.bg{width:469px;height:200px}@media (max-width: 700px){section.Contacts div.bg{width:90%;height:100px}}section.Contacts div.bg img{width:100%;height:100%}@media (max-width: 700px){section.Contacts div.bg img{transform:rotate(15deg);width:240px}}section.Contacts div.mail{text-align:center}section.Contacts div.mail h1{font-size:50px}@media (max-width: 700px){section.Contacts div.mail h1{font-size:30px}}section.Contacts div.mail h2{font-size:30px}@media (max-width: 700px){section.Contacts div.mail h2{font-size:18px;padding-bottom:50px}}img.Ribbon{width:100%;height:100%;position:relative;top:5px;object-fit:cover;object-position:0 0}
+
+section.Header{margin-top:5%;margin-bottom:5%;background:url([object Module]) no-repeat top;font-family:Scribble, "Segoe UI", serif;display:flex;flex-direction:column;justify-content:center;align-items:start}section.Header div.textWrapper{color:#51504c;display:flex;flex-direction:row;justify-content:space-evenly;align-items:center;width:100%}@media (max-width: 1000px){section.Header div.textWrapper{flex-direction:column}}section.Header div.textWrapper div.text{text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:stretch}section.Header div.textWrapper div.text h1.Welcome{font-size:100px}@media (max-width: 500px){section.Header div.textWrapper div.text h1.Welcome{font-size:60px}}section.Header div.textWrapper div.text h1.My{font-size:75px}@media (max-width: 500px){section.Header div.textWrapper div.text h1.My{font-size:30px}}section.Header div.textWrapper div.text h1.Automedon{font-size:60px}@media (max-width: 500px){section.Header div.textWrapper div.text h1.Automedon{font-size:40px}}section.Header div.textWrapper div.text h1.AND{font-size:30px}@media (max-width: 500px){section.Header div.textWrapper div.text h1.AND{font-size:40px}}section.Header div.textWrapper div.text h1.Frontend{font-size:60px}@media (max-width: 500px){section.Header div.textWrapper div.text h1.Frontend{font-size:40px}}section.Header div.textWrapper div.text h1.Developer{font-size:60px}@media (max-width: 500px){section.Header div.textWrapper div.text h1.Developer{font-size:40px}}section.Header div.textWrapper div.image{width:449px;height:449px;background:url([object Module]) no-repeat center center/cover}@media (max-width: 500px){section.Header div.textWrapper div.image{background:none;width:90%;text-align:center;height:auto}}section.Header div.textWrapper div.image div.slider{margin-left:19px;margin-top:97px;width:385px;height:247px}@media (max-width: 500px){section.Header div.textWrapper div.image div.slider{width:85%;margin:20px auto}}section.Header div.textWrapper div.image div.slider *::before{color:#888783}section.Header div.textWrapper div.image div.slider div.slide img{width:385px;height:247px;border-radius:5px}@media (max-width: 500px){section.Header div.textWrapper div.image div.slider div.slide img{width:100%;height:180px}}
+
+section.Menu{background-color:#231d1c;font-family:Scribble;display:flex;flex-direction:column;align-items:center;border-radius:4px}section.Menu img.ReverseRibbon{width:100%;height:100%;object-fit:cover;object-position:0 0;position:relative;top:5px}section.Menu div.head{display:flex;flex-direction:row;width:100%;justify-content:space-evenly;align-items:center;height:75px;font-size:30px;color:white}@media (max-width: 700px){section.Menu div.head{flex-wrap:wrap;font-size:20px}}@media (max-width: 500px){section.Menu div.head{display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;flex-wrap:nowrap;height:auto;line-height:2;font-size:30px;margin:20px 0}}section.Menu div.head div a{color:white}section.Menu div.head div a div.button:hover{cursor:pointer;opacity:0.9}section.Menu div.icons{height:40px;width:325px;display:flex;flex-direction:row;justify-content:space-evenly;align-items:start;margin-bottom:30px;margin-top:10px}@media (max-width: 700px){section.Menu div.icons{flex-wrap:wrap;width:300px}}section.Menu div.icons div.icon{height:100%;display:flex;flex-direction:column;justify-content:center;align-items:start}section.Menu div.icons div.icon a i{transform:scale(3);color:white}section.Menu div.icons div.icon a:hover{opacity:0.9}
+
+section.Portfolio{background-color:#231d1c;font-family:Scribble, "Segoe UI", serif;display:flex;flex-direction:column;justify-content:center;text-align:center}section.Portfolio img.Ribbon{width:100%;height:100%;object-fit:cover;object-position:0 0}section.Portfolio img.ReverseRibbon{width:100%;height:100%;object-fit:cover;object-position:0 0;position:relative;top:2px}section.Portfolio div.bg{display:flex;flex-direction:row;justify-content:space-between;align-items:center;height:200px;margin-bottom:30px}@media (max-width: 1000px){section.Portfolio div.bg{padding:2% 0;justify-content:start;height:150px;margin:0}}@media (max-width: 700px){section.Portfolio div.bg{padding:2% 0;height:100px;margin:0;justify-content:start}}section.Portfolio div.bg img{max-width:400px;height:100%}@media (max-width: 1000px){section.Portfolio div.bg img{transform:rotate(15deg);max-width:400px;height:200px}}@media (max-width: 700px){section.Portfolio div.bg img{transform:rotate(15deg);max-width:280px;height:100px}}section.Portfolio div.bg img.Stars{position:relative;top:100px;z-index:0;width:unset;height:unset}@media (max-width: 1000px){section.Portfolio div.bg img.Stars{display:none}}section.Portfolio div.grid{z-index:1;display:grid;grid-template-columns:repeat(3, 1fr);grid-gap:5px;width:100%}@media (max-width: 700px){section.Portfolio div.grid{grid-template-columns:repeat(2, 1fr)}}@media (max-width: 500px){section.Portfolio div.grid{grid-template-columns:repeat(1, 1fr)}}section.Portfolio div.grid div.oneGrid{width:auto;background-color:#888888}section.Portfolio div.grid div.oneGrid h1{text-align:center}section.Portfolio div.grid div.oneGrid div.img{width:100%}section.Portfolio div.grid div.oneGrid div.img img{width:100%}section.Portfolio div.button{margin:30px 0;font-family:Scribble, "Segoe UI", serif;font-size:60px;border-radius:6px;border-width:0;background-color:#d2d0cc;color:black;padding:0 20px;border-color:black !important;align-self:center;cursor:pointer}section.Portfolio div.button a{color:unset !important}@media (max-width: 700px){section.Portfolio div.button{width:80%;padding:0 10px;font-size:40px}}
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url([object Module]) center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url([object Module]);
+    src: url([object Module]?#iefix) format('embedded-opentype'), url([object Module]) format('woff'), url([object Module]) format('truetype'), url([object Module]#slick) format('svg');
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '\2190';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '\2192';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '\2192';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '\2190';
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '\2022';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
