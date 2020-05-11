@@ -769,7 +769,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "Menu__Wrapper",
   componentId: "sc-1hvodif-0"
-})(["background-color:#231d1c;font-family:Scribble,\"Segoe UI\",serif;display:flex;flex-direction:column;align-items:center;border-radius:4px;img.ReverseRibbon{width:100%;height:100%;object-fit:cover;object-position:0 0;position:relative;top:5px;}div.head{display:flex;flex-direction:row;width:100%;justify-content:space-evenly;align-items:center;height:75px;font-size:30px;color:white;@media (max-width:700px){flex-wrap:wrap;font-size:20px;}@media (max-width:500px){display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;flex-wrap:nowrap;height:auto;line-height:2;font-size:30px;margin:20px 0;}div{a{color:white;div.button:hover{cursor:pointer;opacity:0.9;}}}}div.icons{height:40px;width:325px;display:flex;flex-direction:row;justify-content:space-evenly;align-items:start;margin-bottom:30px;margin-top:10px;@media (max-width:700px){flex-wrap:wrap;width:300px;}div.icon{height:100%;display:flex;flex-direction:column;justify-content:center;align-items:start;a{i{transform:scale(3);color:white;}}a:hover{opacity:0.9;}}}"]);
+})(["background-color:#231d1c;font-family:Scribble;display:flex;flex-direction:column;align-items:center;border-radius:4px;img.ReverseRibbon{width:100%;height:100%;object-fit:cover;object-position:0 0;position:relative;top:5px;}div.head{display:flex;flex-direction:row;width:100%;justify-content:space-evenly;align-items:center;height:75px;font-size:30px;color:white;@media (max-width:700px){flex-wrap:wrap;font-size:20px;}@media (max-width:500px){display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;flex-wrap:nowrap;height:auto;line-height:2;font-size:30px;margin:20px 0;}div{a{color:white;div.button:hover{cursor:pointer;opacity:0.9;}}}}div.icons{height:40px;width:325px;display:flex;flex-direction:row;justify-content:space-evenly;align-items:start;margin-bottom:30px;margin-top:10px;@media (max-width:700px){flex-wrap:wrap;width:300px;}div.icon{height:100%;display:flex;flex-direction:column;justify-content:center;align-items:start;a{i{transform:scale(3);color:white;}}a:hover{opacity:0.9;}}}"]);
 var content = [{
   name: "HOME"
 }, {
@@ -10601,7 +10601,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!**************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cuser%5CPhpstormProjects%5CTraning%5Cnextportfolio%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
   \**************************************************************************************************************************************************************************/
@@ -10624,5 +10624,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
