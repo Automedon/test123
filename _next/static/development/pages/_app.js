@@ -777,12 +777,9 @@ module.exports = exports;
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../public/fonts/Sketch_Block.ttf */ "./public/fonts/Sketch_Block.ttf");
 exports = ___CSS_LOADER_API_IMPORT___(true);
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "body {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\r\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\r\n    sans-serif;\r\n    background-color:white;\r\n    color:#fff;\r\n    -webkit-font-smoothing: antialiased;\r\n    -moz-osx-font-smoothing: grayscale;\r\n    line-height:1.2;\r\n}\r\ncode {\r\n    font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n* {\r\n    margin:0;padding:0;\r\n    scroll-behavior: smooth;\r\n}\r\nhtml {\r\n    overflow-y:scroll;\r\n    scroll-behavior:smooth;\r\n}\r\n@font-face {\r\n    font-family: \"Scribble\";\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n#root{\r\n    background-color: #e9e7e2;\r\n}\r\n", "",{"version":3,"sources":["global.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV;;cAEU;IACV,sBAAsB;IACtB,UAAU;IACV,mCAAmC;IACnC,kCAAkC;IAClC,eAAe;AACnB;AACA;IACI;aACS;AACb;AACA;IACI,QAAQ,CAAC,SAAS;IAClB,uBAAuB;AAC3B;AACA;IACI,iBAAiB;IACjB,sBAAsB;AAC1B;AACA;IACI,uBAAuB;IACvB,4CAA4C;AAChD;AACA;IACI,yBAAyB;AAC7B","file":"global.css","sourcesContent":["body {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\r\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\r\n    sans-serif;\r\n    background-color:white;\r\n    color:#fff;\r\n    -webkit-font-smoothing: antialiased;\r\n    -moz-osx-font-smoothing: grayscale;\r\n    line-height:1.2;\r\n}\r\ncode {\r\n    font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n* {\r\n    margin:0;padding:0;\r\n    scroll-behavior: smooth;\r\n}\r\nhtml {\r\n    overflow-y:scroll;\r\n    scroll-behavior:smooth;\r\n}\r\n@font-face {\r\n    font-family: \"Scribble\";\r\n    src: url('../public/fonts/Sketch_Block.ttf');\r\n}\r\n#root{\r\n    background-color: #e9e7e2;\r\n}\r\n"]}]);
+exports.push([module.i, "body {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\r\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\r\n    sans-serif;\r\n    background-color:white;\r\n    color:#fff;\r\n    -webkit-font-smoothing: antialiased;\r\n    -moz-osx-font-smoothing: grayscale;\r\n    line-height:1.2;\r\n}\r\ncode {\r\n    font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n* {\r\n    margin:0;padding:0;\r\n    scroll-behavior: smooth;\r\n}\r\nhtml {\r\n    overflow-y:scroll;\r\n    scroll-behavior:smooth;\r\n}\r\n#root{\r\n    background-color: #e9e7e2;\r\n}\r\n", "",{"version":3,"sources":["global.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV;;cAEU;IACV,sBAAsB;IACtB,UAAU;IACV,mCAAmC;IACnC,kCAAkC;IAClC,eAAe;AACnB;AACA;IACI;aACS;AACb;AACA;IACI,QAAQ,CAAC,SAAS;IAClB,uBAAuB;AAC3B;AACA;IACI,iBAAiB;IACjB,sBAAsB;AAC1B;AACA;IACI,yBAAyB;AAC7B","file":"global.css","sourcesContent":["body {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\r\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\r\n    sans-serif;\r\n    background-color:white;\r\n    color:#fff;\r\n    -webkit-font-smoothing: antialiased;\r\n    -moz-osx-font-smoothing: grayscale;\r\n    line-height:1.2;\r\n}\r\ncode {\r\n    font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n* {\r\n    margin:0;padding:0;\r\n    scroll-behavior: smooth;\r\n}\r\nhtml {\r\n    overflow-y:scroll;\r\n    scroll-behavior:smooth;\r\n}\r\n#root{\r\n    background-color: #e9e7e2;\r\n}\r\n"]}]);
 // Exports
 module.exports = exports;
 
@@ -4468,18 +4465,7 @@ module.exports = "/_next/static/images/bgHeader-cfe6f43eb78361e4853f81f8dba48623
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/borders-12711427b0b65120b57e4ed00c4e9bf5.png";
-
-/***/ }),
-
-/***/ "./public/fonts/Sketch_Block.ttf":
-/*!***************************************!*\
-  !*** ./public/fonts/Sketch_Block.ttf ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/media/Sketch_Block.f60ddecc619238d932cb5b537ac0c74c.ttf";
+module.exports = "/_next/static/images/borders-d6b622c4af18bb35fbd1ee326bcb2803.png";
 
 /***/ }),
 
