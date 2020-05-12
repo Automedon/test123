@@ -4406,11 +4406,6 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-var theme = {
-  colors: {
-    primary: '#0070f3'
-  }
-};
 
 var MyApp = /*#__PURE__*/function (_App) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(MyApp, _App);
@@ -4433,7 +4428,7 @@ var MyApp = /*#__PURE__*/function (_App) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 17,
           columnNumber: 17
         }
       }));

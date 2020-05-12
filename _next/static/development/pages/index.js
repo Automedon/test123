@@ -898,7 +898,7 @@ var Menu = function Menu() {
     style: {
       width: "48px"
     },
-    alt: "",
+    alt: "CodeWars",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -9854,8 +9854,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.js");
 /* harmony import */ var _components_AboutMe__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/AboutMe */ "./components/AboutMe.js");
 /* harmony import */ var _components_Contacts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Contacts */ "./components/Contacts.js");
+/* harmony import */ var _public_favicon_ico__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../public/favicon.ico */ "./public/favicon.ico");
+/* harmony import */ var _public_favicon_ico__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_public_favicon_ico__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "C:\\Users\\user\\PhpstormProjects\\Traning\\nextportfolio\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -9872,75 +9875,20 @@ function Index() {
       lineNumber: 15,
       columnNumber: 13
     }
-  }, __jsx("html", {
-    lang: "en",
+  }, __jsx("link", {
+    rel: "shortcut icon",
+    href: _public_favicon_ico__WEBPACK_IMPORTED_MODULE_7___default.a,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 17
     }
-  }), __jsx("link", {
-    rel: "stylesheet",
-    href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css",
-    integrity: "sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=",
-    crossOrigin: "anonymous",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 17
-    }
-  }), __jsx("link", {
-    rel: "stylesheet",
-    href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 17
-    }
-  }), __jsx("meta", {
-    name: "viewport",
-    content: "width=device-width, initial-scale=1, shrink-to-fit=no",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 17
-    }
-  }), __jsx("link", {
-    rel: "shortcut icon",
-    href: "/public/favicon.ico",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 17
-    }
-  }), __jsx("meta", {
-    name: "description",
-    content: "Portfolio of a Typescript/React Developer",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
-    }
-  }), __jsx("meta", {
-    name: "theme-color",
-    content: "#000000",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 17
-    }
   }), __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 17,
       columnNumber: 17
     }
   }, "Automedon Portfolio")), __jsx("section", {
@@ -9948,42 +9896,42 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 19,
       columnNumber: 13
     }
   }, __jsx(_components_Menu__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 20,
       columnNumber: 17
     }
   }), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 21,
       columnNumber: 17
     }
   }), __jsx(_components_Portfolio__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 22,
       columnNumber: 17
     }
   }), __jsx(_components_AboutMe__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 23,
       columnNumber: 17
     }
   }), __jsx(_components_Contacts__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 24,
       columnNumber: 17
     }
   })));
@@ -10038,6 +9986,17 @@ module.exports = "/_next/static/images/about me-b8a39519f3d59104873439a64d2d70a4
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/contacts-2839b872a39d8780693e83e680721c92.png";
+
+/***/ }),
+
+/***/ "./public/favicon.ico":
+/*!****************************!*\
+  !*** ./public/favicon.ico ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/favicon-bb662ccc6090b3e7a359efc649fce03c.ico";
 
 /***/ }),
 
